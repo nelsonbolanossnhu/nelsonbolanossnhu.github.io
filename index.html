@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f9f4ef;
+            background: #f7f5f0;
             margin: 0;
             padding: 0;
             line-height: 1.6;
@@ -16,18 +16,18 @@
 
         /* Banner / header */
         .banner-wrap {
-            background: #c0392b;
+            background: #d4af37; /* gold */
             padding: 25px 0 10px;
             position: relative;
         }
         .banner-inner {
-            background: #7a1f3d;
+            background: #1a1a1a; /* deep black */
             max-width: 900px;
             margin: 0 auto;
             padding: 25px 30px;
             text-align: center;
             color: #fff;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
         }
         .banner-inner h1 {
             margin: 0;
@@ -62,7 +62,7 @@
         h2.section-title {
             text-align: center;
             margin-top: 20px;
-            color: #7a1f3d;
+            color: #1a1a1a; /* black */
             font-size: 1.6rem;
         }
 
@@ -70,7 +70,7 @@
             text-align: center;
             font-weight: bold;
             margin-top: 5px;
-            color: #7a1f3d;
+            color: #d4af37; /* gold accent */
         }
 
         hr {
@@ -79,12 +79,19 @@
             margin: 30px 0;
         }
 
+        /* Each section as a card */
         section {
-            margin-top: 25px;
+            max-width: 900px;
+            margin: 25px auto;
+            background: #ffffff;
+            padding: 20px 25px;
+            border-radius: 8px;
+            border-left: 5px solid #d4af37; /* gold stripe */
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
         }
 
         h3 {
-            color: #7a1f3d;
+            color: #1a1a1a; /* black */
             margin-bottom: 5px;
         }
 
@@ -113,11 +120,12 @@
         }
 
         a {
-            color: #7a1f3d;
+            color: #d4af37; /* gold links */
             font-weight: bold;
             text-decoration: none;
         }
         a:hover {
+            color: #1a1a1a; /* black on hover */
             text-decoration: underline;
         }
 
