@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nelson Bolanos | CS-499 ePortfolio</title>
+    <title>Nelson Bolanos | Computer Science Capstone ePortfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,64 +11,308 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            color: #333;
         }
-        header {
-            text-align: center;
+
+        /* Banner / header */
+        .banner-wrap {
+            background: #c0392b;
+            padding: 25px 0 10px;
+            position: relative;
+        }
+        .banner-inner {
             background: #7a1f3d;
-            color: white;
-            padding: 40px 20px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        section {
             max-width: 900px;
-            margin: 40px auto;
-            background: white;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            margin: 0 auto;
+            padding: 25px 30px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
-        h2 {
+        .banner-inner h1 {
+            margin: 0;
+            font-size: 2.7rem;
+            letter-spacing: 1px;
+        }
+        .banner-inner p {
+            margin: 8px 0 0;
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+
+        /* Main content container */
+        .content {
+            max-width: 900px;
+            margin: 0 auto 60px;
+            padding: 0 15px;
+        }
+
+        .intro-photo {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .intro-photo img {
+            width: 180px;
+            height: 180px;
+            border-radius: 4px;
+            object-fit: cover;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        h2.section-title {
+            text-align: center;
+            margin-top: 20px;
+            color: #7a1f3d;
+            font-size: 1.6rem;
+        }
+
+        .subheading {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 5px;
             color: #7a1f3d;
         }
+
+        hr {
+            border: none;
+            border-top: 1px solid #d9cbb8;
+            margin: 30px 0;
+        }
+
+        section {
+            margin-top: 25px;
+        }
+
+        h3 {
+            color: #7a1f3d;
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        ul {
+            margin-top: 0;
+        }
+
+        .artifact-image {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .artifact-image img {
+            max-width: 100%;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+
+        .link-note {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 5px;
+        }
+
         a {
             color: #7a1f3d;
             font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .small {
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: #777;
+            padding: 20px 0 30px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Nelson Bolanos</h1>
-        <p>Computer Science Capstone | CS-499</p>
-    </header>
 
-    <section>
-        <h2>Professional Self-Assessment</h2>
-        <p>(Content will go here later)</p>
-    </section>
+    <!-- Banner -->
+    <div class="banner-wrap">
+        <div class="banner-inner">
+            <h1>NELSON BOLANOS</h1>
+            <p>This is my final project for CS-499, Computer Science Capstone at SNHU.</p>
+        </div>
+    </div>
 
-    <section>
-        <h2>Code Review</h2>
-        <p>(Link to your video goes here)</p>
-    </section>
+    <div class="content">
 
-    <section>
-        <h2>Artifact 1: Software Engineering & Design</h2>
-        <p>(Description + screenshot + links)</p>
-    </section>
+        <!-- Optional photo -->
+        <div class="intro-photo">
+            <!-- Replace src with a real image URL or remove the img tag -->
+            <img src="https://via.placeholder.com/180x180.png?text=Nelson" alt="Photo of Nelson Bolanos">
+        </div>
 
-    <section>
-        <h2>Artifact 2: Algorithms & Data Structures</h2>
-        <p>(Description + screenshot + links)</p>
-    </section>
+        <h2 class="section-title">Computer Science Capstone</h2>
+        <div class="subheading">CS-499 | SNHU</div>
 
-    <section>
-        <h2>Artifact 3: Databases</h2>
-        <p>(Description + screenshot + links)</p>
-    </section>
+        <hr>
+
+        <!-- Professional Self-Assessment -->
+        <section id="self-assessment">
+            <h3>Professional Self-Assessment</h3>
+            <p>
+                [Write 3–5 paragraphs here that introduce you as a computer science professional.
+                Summarize your skills, experiences, and how the artifacts in this ePortfolio
+                demonstrate the CS program outcomes: Software Engineering and Design,
+                Algorithms and Data Structures, Databases, Security, and Professional Communication.]
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Code Review -->
+        <section id="code-review">
+            <h3>Code Review</h3>
+            <p>
+                A code review involves carefully examining source code to evaluate its quality,
+                correctness, and maintainability. For this capstone, I conducted a code review on
+                my chosen artifact to identify opportunities for improvement and guide my
+                enhancement work.
+            </p>
+            <p>
+                You can watch the code review video
+                <a href="[PASTE_YOUR_CODE_REVIEW_LINK_HERE]" target="_blank">here</a>.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Artifact 1 -->
+        <section id="artifact1">
+            <h3>Project 1: Software Engineering and Design</h3>
+            <p class="small"><strong>Category:</strong> Software Engineering and Design</p>
+            <p>
+                [Briefly describe your first artifact here – e.g., “This project is a full-stack web
+                application that allows users to … It demonstrates my ability to design, develop,
+                and test software using modern development practices.”]
+            </p>
+
+            <div class="artifact-image">
+                <!-- Replace with a real screenshot of your artifact -->
+                <img src="https://via.placeholder.com/800x350.png?text=Artifact+1+Screenshot" alt="Screenshot of Artifact 1">
+            </div>
+
+            <p>
+                [In 1–2 paragraphs, explain what enhancements you made for this course and why.
+                Mention design patterns, refactoring, testing, or usability improvements.]
+            </p>
+
+            <p class="link-note">
+                • Original artifact code: <a href="[LINK_TO_ORIGINAL_REPO_OR_FOLDER]" target="_blank">view here</a><br>
+                • Enhanced artifact code: <a href="[LINK_TO_ENHANCED_REPO_OR_FOLDER]" target="_blank">view here</a><br>
+                • Enhancement narrative: <a href="[LINK_TO_PDF_OR_MD_NARRATIVE]" target="_blank">read here</a>
+            </p>
+
+            <p class="small">
+                <strong>Program Outcomes Demonstrated:</strong><br>
+                – Software Engineering and Design<br>
+                – Professional Communication (through documentation and code comments)
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Artifact 2 -->
+        <section id="artifact2">
+            <h3>Project 2: Algorithms and Data Structures</h3>
+            <p class="small"><strong>Category:</strong> Algorithms and Data Structures</p>
+            <p>
+                [Describe your second artifact – e.g., “This Java application implements multiple
+                data structures and algorithms to … It showcases my understanding of algorithmic
+                efficiency and object-oriented principles.”]
+            </p>
+
+            <div class="artifact-image">
+                <!-- Replace with a real screenshot -->
+                <img src="https://via.placeholder.com/800x350.png?text=Artifact+2+Screenshot" alt="Screenshot of Artifact 2">
+            </div>
+
+            <p>
+                [Explain the enhancements you implemented for this artifact – for example,
+                optimizing algorithms, improving time/space complexity, refactoring into reusable
+                classes, adding unit tests, or improving the UI that drives the algorithms.]
+            </p>
+
+            <p class="link-note">
+                • Original artifact code: <a href="[LINK_TO_ORIGINAL_REPO_OR_FOLDER_2]" target="_blank">view here</a><br>
+                • Enhanced artifact code: <a href="[LINK_TO_ENHANCED_REPO_OR_FOLDER_2]" target="_blank">view here</a><br>
+                • Enhancement narrative: <a href="[LINK_TO_PDF_OR_MD_NARRATIVE_2]" target="_blank">read here</a>
+            </p>
+
+            <p class="small">
+                <strong>Program Outcomes Demonstrated:</strong><br>
+                – Algorithms and Data Structures<br>
+                – Software Engineering and Design
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Artifact 3 -->
+        <section id="artifact3">
+            <h3>Project 3: Databases</h3>
+            <p class="small"><strong>Category:</strong> Databases</p>
+            <p>
+                [Describe your third artifact – e.g., “This project is a Python application with a
+                database-backed GUI that allows users to … It demonstrates my ability to design
+                and interact with databases using SQL/ORM tools.”]
+            </p>
+
+            <div class="artifact-image">
+                <!-- Replace with a real screenshot -->
+                <img src="https://via.placeholder.com/800x350.png?text=Artifact+3+Screenshot" alt="Screenshot of Artifact 3">
+            </div>
+
+            <p>
+                [Explain the database-focused enhancements you made: schema design, indexing,
+                input validation, query optimization, or better error handling.]
+            </p>
+
+            <p class="link-note">
+                • Original artifact code: <a href="[LINK_TO_ORIGINAL_REPO_OR_FOLDER_3]" target="_blank">view here</a><br>
+                • Enhanced artifact code: <a href="[LINK_TO_ENHANCED_REPO_OR_FOLDER_3]" target="_blank">view here</a><br>
+                • Enhancement narrative: <a href="[LINK_TO_PDF_OR_MD_NARRATIVE_3]" target="_blank">read here</a>
+            </p>
+
+            <p class="small">
+                <strong>Program Outcomes Demonstrated:</strong><br>
+                – Databases<br>
+                – Security (if you handled validation/authorization)<br>
+                – Professional Communication
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Optional: overall reflection -->
+        <section id="conclusion">
+            <h3>Conclusion</h3>
+            <p>
+                [Use this space for a short closing reflection that ties together your learning,
+                how these artifacts represent your growth, and how they prepare you for a
+                professional role in computer science.]
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; <span id="year"></span> Nelson Bolanos · CS-499 Computer Science Capstone · SNHU
+    </footer>
+
+    <script>
+        // Set current year in footer automatically
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 
 </body>
 </html>
